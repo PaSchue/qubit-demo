@@ -26,6 +26,11 @@ body {
     position: absolute;
 }
 
+.navbar a {
+    color: inherit; /* Inherit color from parent element */
+    text-decoration: none; /* Remove underline */
+}
+
 .nav-list {
     display: flex;
     list-style: none;
@@ -85,6 +90,11 @@ body {
     align-items: flex-start;
 }
 
+.Categories .text a {
+    color: inherit; /* Inherit color from parent element */
+    text-decoration: none; /* Remove underline */
+}
+
 .Content {
     display: flex;
     flex-direction: column;
@@ -122,3 +132,4 @@ body {
     object-fit: cover; /* Ensure the image covers the container */
     border-radius: 1rem;
 }
+
