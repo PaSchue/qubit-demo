@@ -1,0 +1,135 @@
+html {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    padding: 0;
+    background-color: #f4f4f4;
+    margin: 0.5rem;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: white;
+    margin: 0rem 0rem;
+    padding: 20px;
+    z-index: 1000;
+    position: absolute;
+}
+
+.navbar a {
+    color: inherit; /* Inherit color from parent element */
+    text-decoration: none; /* Remove underline */
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    margin: 0 10px;
+    
+}
+
+.logo {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-list li a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner {
+    display: flex;
+    background-image: url("../images/banner-mountain-range.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 750px;
+    padding: 0rem 0rem 0;
+    border-radius: 0.75rem;
+}
+
+.banner .title {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-top: 0;
+    padding: 2rem;
+    width: auto;
+}
+
+.Categories {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Categories .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.Categories .text a {
+    color: inherit; /* Inherit color from parent element */
+    text-decoration: none; /* Remove underline */
+}
+
+.Content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.left-handed, .right-handed {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.Image, .text {
+    flex: 1; /* Each will take up 50% of the parent container */
+    max-width: 50%; /* Ensure they don't exceed 50% of the width */
+    padding: 20px; /* Optional: Add padding for better spacing */
+    aspect-ratio: 1 / 1; /* Ensure the height is equal to the width */
+    display: flex; /* Ensure the content inside is centered */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+.Image {
+    height: 100%; /* Ensure the .Image container fills the height of the parent */
+}
+
+.Image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the container */
+    border-radius: 1rem;
+}
+
