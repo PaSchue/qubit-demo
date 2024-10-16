@@ -18,7 +18,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 99%;
     color: white;
     margin: 0rem 0rem;
     padding: 1.25rem; /* 20px */
@@ -75,6 +75,68 @@ body {
     padding: 2rem;
     width: auto;
 }
+
+
+.Categories {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Categories .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.Categories .text a {
+    color: inherit; /* Inherit color from parent element */
+    text-decoration: none; /* Remove underline */
+}
+
+.Categories .Content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.Categories .left-handed, .Categories .right-handed {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.Categories .Image, .Categories .text {
+    flex: 1; /* Each will take up 50% of the parent container */
+    max-width: 50%; /* Ensure they don't exceed 50% of the width */
+    padding: 20px; /* Optional: Add padding for better spacing */
+    aspect-ratio: 1 / 1; /* Ensure the height is equal to the width */
+    display: flex; /* Ensure the content inside is centered */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+
+.Categories .Image {
+    height: 100%; /* Ensure the .Image container fills the height of the parent */
+}
+
+.Categories .Image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the container */
+    border-radius: 1rem;
+}
+
+
+
 
 .catalogue {
     width: 95%;
