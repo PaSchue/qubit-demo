@@ -55,7 +55,7 @@ body {
 
 .banner {
     display: flex;
-    background-image: url("../images/banner-mountain-range.jpg");
+    background-image: url("../images/desert.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -68,11 +68,14 @@ body {
 .banner .title {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     color: black;
-    font-size: 1.75rem;
+    color: white; /* Change text color to white for better visibility */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    font-size: 2.0rem;
     font-weight: 700;
     margin-top: 0;
-    padding: 2rem;
+    padding: 5rem;
     width: auto;
 }
 
