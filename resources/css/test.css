@@ -42,7 +42,6 @@ body {
     margin-right: 1rem; /* Add space between nav items */
 }
 
-
 .logo {
     color: black;
     text-decoration: none;
@@ -58,6 +57,7 @@ body {
     margin: 0 auto;
     padding: 20px;
     padding-top: 8rem;
+}
 
 .post-header {
     text-align: center;
@@ -116,4 +116,28 @@ body {
 
 .related-posts li {
     margin: 10px 0;
+}
+
+.footer {
+    background-color: black; /* Change to desired background color */
+    color: white; /* Change to desired text color */
+    margin-top: 5rem; /* Add space between the content and footer */
+    padding: 1rem 0 1rem;
+    text-align: center;
+    border-radius: 0.75rem;
+}
+
+.footer .footer-content {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; /* Removed stray slash */
+}
+
+.footer .footer-section {
+    flex: 1;
+}
+
+.footer .footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
 }
