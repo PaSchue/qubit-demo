@@ -202,3 +202,28 @@ body {
     padding: 0.625rem 0.9375rem; /* 10px 15px */
     cursor: pointer;
 }
+
+/* New styles for the footer */
+.footer {
+    background-color: black; /* Change to desired background color */
+    color: white; /* Change to desired text color */
+    margin-top: 5rem; /* Add space between the content and footer */
+    padding: 1rem 0 1rem;
+    text-align: center;
+    border-radius: 0.75rem;
+}
+
+.footer .footer-content {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; /
+}
+
+.footer .footer-section {
+    flex: 1;
+}
+
+.footer .footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+}
